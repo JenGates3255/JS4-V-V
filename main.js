@@ -49,6 +49,20 @@ value = confirm("Do you want to enter another?")
 
 
 
+var volunteers = true
+while (volunteers){
+			var volnam =[]
+ 			var volnum =[]
+			var volstreet=[]
+	volnam.push(prompt("volunteer name"));		
+	volnum.push(prompt("volunteer number"));
+	volstreet.push(prompt("volunteer street"));
+		console.log(volnam);
+		console.log(volnum);
+		console.log(volstreet);
+
+volunteers = confirm("Do you want to enter another?")
+}
 
 
 
